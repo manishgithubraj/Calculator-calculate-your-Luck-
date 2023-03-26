@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(calculator.jpg);
+  background-position: center;
+  margin-top: 40px;
+  background-attachment: fixed;
+  
+}
+
+.button{
+    width: 66px;
+    padding: 17px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background: #040404;
+    color: #eaeaea;
+}
+
+.row{
+    margin: 31px 22px;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 11px 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(255, 251, 251);
+}
+::placeholder{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .button:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+
+ }
+ .all {
+    border: 10px solid rgb(6, 7, 6);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+ }
