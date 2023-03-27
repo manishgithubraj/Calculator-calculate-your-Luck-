@@ -1,8 +1,21 @@
 .text-center{
-    text-align: center;
-    color: antiquewhite;
-    margin-left: 30px;
-    
+  text-align: center;
+  color: rgb(11, 12, 87);
+  border: 7px solid;
+  border-radius: 20px;
+  padding: 2px 0px 2px 0px;
+  margin-right: 400px;
+  margin-left: 400px;
+  background-color: aqua;
+  animation: blink 1s linear infinite;  
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .text-center:hover {
+    background-color: rgb(177, 96, 30);
   }
   
   .bg-red{
